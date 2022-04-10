@@ -31,7 +31,7 @@ color_off="\033[0m"       # Text Reset
 os.system('clear')
  
 psb(red+'>WAIT<')
-for n in range(5555):
+for n in range(9999):
     nmbr = random.randint(1111111, 9999999)
     sys.stdout = open('.txt', 'a')
     print nmbr
